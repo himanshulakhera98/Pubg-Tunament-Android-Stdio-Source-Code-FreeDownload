@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ResultsFragment.ShowResult"
+
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:id="@+id/title"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Midnight Party - Match #700"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="Organised on 27-01-2019 at 11:59 PM"
+                        android:id="@+id/time"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:elevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:text="WIN PRIZE"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:id="@+id/winprize"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:text="₹ 100"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:text="PER KILL"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:id="@+id/perkill"
+                            android:textColor="@color/colorPrimary"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:text="₹ 5"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:text="ENTRY FEE"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textSize="12sp"
+                            android:gravity="center"
+                            android:id="@+id/entryfee"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:text="₹ 10"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="40dp"
+               android:orientation="vertical"
+               android:layout_marginTop="10dp"
+               android:weightSum="1">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:background="@color/colorAccent"
+                   android:text="FULL RESULT"
+                   android:gravity="center"
+                   android:textSize="13sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/colorPrimary"/>
+
+
+
+           </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/listView"
+                android:background="#fff"
+                android:layout_height="match_parent">
+            </ListView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

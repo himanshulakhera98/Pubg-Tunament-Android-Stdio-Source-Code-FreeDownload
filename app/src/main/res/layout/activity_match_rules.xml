@@ -1,0 +1,87 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment.MatchRules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="10dp"
+
+                android:elevation="8dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="1. ROOM ID and PASSWORD will be shared in the app before 15 minutes of match start time.\n
+\n
+2. Match will start after 15 minutes of sharing of ROOM ID and PASSWORD.\n
+\n
+3. Make sure to grab ROOM ID and PASSWORD before the match starts.\n
+\n
+4. Make sure to join the match room ASAP, before the match starts.\n
+\n
+5. If in anyway you fail to join the room by the match start time, then we are not responsible for it. Refund in such cases wontt be entertained. So, make sure to join in time.
+\n \n
+6. Do not share the ROOM ID and PASSWORD with anyone who has not joined the match. If you are caught doing so, your account will be seized and you will loose all the balance.
+\n
+\n
+7. Griefing and teaming is against the game rules.If you are caught doing so, your account will be seized and you will loose all the balance.
+\n
+\n
+8.  This match is a PAID MATCH. To participate, you have to pay the entry fee amount. There are total 100 SPOTS available. Join it before all the spots are filled.
+\n
+\n
+9. Please note that the listed entry fee is per individual and not per squad/duo.
+\n
+\n
+10. Each member of a team (Squad or Duo) has to pay the entry fee and register individually for the match or tournament.
+\n
+\n
+11. Once you join the custom room, do not keep changing your position. If you do so, you will be kicked out of the room and no refund will be initiated.
+\n
+\n
+12. Spots are given on the FIRST COME FIRST BASIS.
+\n
+\n
+13. Last standing man get the CHICKEN DINNER AWARD (Wining Prize).
+\n
+\n
+14. You will also be rewarded for each kill. Check the PER KILL section in details.
+\n
+\n
+15. Do not use any HACKS.
+\n
+\n
+16. If anyone is caught violating these rules then immediate action will be taken and their account will be seized and they will loose all the balance.
+ \n
+ \n
+17. Last and final decision will be from our side.
+\n
+\n
+18. If you have any queries, then email us at simranenterprisesworld@gmail.com
+\n
+\n
+19. Also, If you want to arrange Giveaway or Sponsor any such match then drop us a mail at simranenterprisesworld@gmail.com \n \n"/>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

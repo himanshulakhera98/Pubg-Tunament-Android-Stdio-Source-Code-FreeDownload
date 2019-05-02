@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".RequestAddMoney.RequestAdd">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="0dp"
+           android:background="#FE5D26"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#fff"
+           android:textStyle="bold"
+           android:layout_marginTop="20dp"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:background="#FE5D26"
+           android:text="Send Money to Below Numbers to Add Money in Your PlayPUBG Wallet "/>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Paytm - 9503320884"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:padding="20dp"
+           android:textSize="20sp"
+           android:gravity="center"
+           android:textColor="#FE5D26"
+           android:background="#fff"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#fff"
+           android:textStyle="bold"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:background="#FE5D26"
+           android:text="Your Money Will Be Added in 1 Hour ! "/>
+
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:background="#FE5D26"
+           android:layout_marginTop="20dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:background="#fff"
+           android:text="Take Screenshot of Payment Successfull Page and Upload the Screenshot Below --> "/>
+
+
+       <Button
+           android:layout_width="wrap_content"
+           android:background="@color/colorPrimary"
+           android:text="Add Screenshot"
+           android:textColor="#fff"
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:drawableRight="@drawable/ic_near_me_black_24dp"
+           android:padding="10dp"
+           android:textAllCaps="false"
+           android:onClick="addScreenshot"
+           android:id="@+id/addScreesnshot"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="center"
+           android:layout_height="wrap_content"
+           />
+
+       <Button
+           android:layout_width="wrap_content"
+           android:background="#FE5D26"
+           android:text="Upload Now"
+           android:textColor="#fff"
+           android:textSize="16sp"
+           android:textStyle="bold"
+           android:onClick="upload"
+           android:id="@+id/upload"
+           android:drawableRight="@drawable/ic_near_me_black_24dp"
+           android:padding="10dp"
+           android:visibility="gone"
+           android:textAllCaps="false"
+           android:layout_marginTop="80dp"
+           android:layout_gravity="center"
+           android:layout_height="wrap_content"
+           />
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

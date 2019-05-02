@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fight Zone</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+//Whatsapp :-  +918209524527
+
+    <string name="database_name">PUBGTurnamentv4</string>
+
+    <string name="default_register_number">8209524527</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="contact_email">simranenterprisesworld@gmail.com</string>
+
+    <string name="Version">1.0</string>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayFragments.ViewPlayMatch"
+    android:background="@color/colorPrimary">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="70dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="?attr/actionBarSize"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <ImageView
+                    android:id="@+id/imagedemo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Date : 8:00 PM, 10 March 2019"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Type : SOLO"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/entry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Map : Erangel"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/prize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Prize - "
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="TPP"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/anouncements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="Anouncements- "
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/rules"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center|left"
+                    android:text="Rules - \n •  If in anyway you fail to join the room by the match start time then we aren't responsible for it. Refund in such cases won't be processed. So make sure to join on time.
+\n \n •  No new PUBG Accouts Allowed. PUBG Accounts with Level less than 25 are not allowed to participate. Such participants will be kicked from the room and they will not be given refund.
+\n \n•  Do not share the Room ID &amp; Password with anyone who has not joined the match. If you are found doing so, your account may get terminated and all the winnings will be lost.
+\n \n•  Griefing and Teaming is against the game rules. Any participant found doing so will be disqualified and their prizes will be lost.
+\n \n•  Room ID and Password will be shared in the app before 15 minutes of match start time.
+\n \n•  Match will start after 15 minutes of Sharing Room ID and Password.
+\n \n•  Make sure to grab ID and Password before the Match Start Time.
+\n \n•  Make sure you join the Match Room ASAP, before the match starts.
+\n \n•  This match is Paid match. To participate, you have to pay the entry fee amount. There are total 100 spots available. Join it before all the spots are filled.
+\n \n•  Please note that the listed entry fee is per individual and not the squad/duo team.
+\n \n•  Each member of a team (Squad or Duo) has to pay the entry fee and register individually for the match or tournament.
+\n \n•  Once you join the match custom room, do not keep changing your position. If you do so, you may get kicked from the room.
+\n \n•  Spots are given on the First Come First Basis.
+\n \n•  Last standing man gets the Chicken Dinner Award.
+\n \n•  You will be also rewarded for each kill. Check the rewards details above.
+\n \n•  Use only Mobile Device to Join Match. Do not use any Hacks or Emulators.
+\n \n•  If anyone found violating these rules then immediate action will be taken and respective accounts may get banned and rewards may be abandoned.
+\n \n•  If you have any queries then contact us on simranenterprisesworld@gmail.com.
+\n \n•  Also, if you want to arrange Giveaway or Sponsor any such match then drop us a mail at simranenterprisesworld@gmail.com \n"
+                    android:textColor="#fff"
+
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/discord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center|left"
+                    android:onClick="discord"
+                    android:visibility="gone"
+                    android:text=" •  Click to Join our Discord  "
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Participants -"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/lodParticipants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/colorAccent"
+                    android:drawableRight="@drawable/go"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Load Participants "
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="8000dp"
+                    android:padding="10dp"
+                    android:scrollbars="none"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="70dp"
+                    android:background="#fff"
+                    android:divider="@null"
+                    android:gravity="center|left"
+                    android:layout_gravity="center|left"
+                    android:id="@+id/listView"></ListView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/colorAccent"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       android:layout_margin="10dp"
+       android:background="@color/colorPrimary"
+       android:layout_alignParentBottom="true"
+       android:weightSum="2">
+       <Button
+           android:layout_width="0dp"
+           android:layout_height="60dp"
+           android:text="Join"
+           android:layout_weight="1"
+           android:textStyle="bold"
+           android:textSize="20sp"
+          android:layout_marginRight="5dp"
+           android:id="@+id/joinnow"
+           android:background="@color/colorAccent"
+           />
+
+       <Button
+           android:layout_width="0dp"
+           android:layout_height="60dp"
+           android:text="Invite Friend"
+           android:textStyle="bold"
+           android:layout_marginLeft="5dp"
+           android:textSize="20sp"
+           android:id="@+id/invite"
+           android:textAllCaps="false"
+           android:layout_weight="1"
+           android:background="@android:color/holo_blue_light"
+           />
+   </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+
+
+
+</RelativeLayout>

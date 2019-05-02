@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/play"
+        android:title="Play" />
+
+    <item
+        android:id="@+id/ongoing"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="Ongoing" />
+
+
+    <item
+        android:id="@+id/result"
+        android:icon="@drawable/old"
+        android:title="Result" />
+
+    <item android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="Notifier"/>
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/me"
+        android:title="Me" />
+
+</menu>
